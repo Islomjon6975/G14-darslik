@@ -1,0 +1,21 @@
+/* 
+.text{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 100px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+div{
+    width: 200px;
+    height: 300px;
+    background-color: green;
+}
