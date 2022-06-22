@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+p{
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+
+
+
+
+/* float -> so'zlarni yonidan suzdirib chiqarish. chap yondan joylashtirish */
+
+
+/* block -> o'zini qatorini bermaydi, va keyingi tegni o'zidan keyingi
+ qatorga tushirib yuboradi  */
+
+ /* inline -> o'ziga kerakli joyni oladi, qolgan joyni bervoradi. lekin width height olmaydi */
+
+/* inline-block -> span + width, height oladi */
+
+
+/* background-image: url() -> biror containerga background image qilish */
+/* background-size -> size (cover, container) */
+/* background-repeat: norepeat; -> rasm kichkina bolib qolganda takrorlanishni oldini oladi */
+/* background-attachment -> rasmni fixed( joyida qotirish ) */
+
+
+/* visibility: hidden -> ko'rinmaydigan holatga keladi, lekin joyini saqlaydi */
+/* display: none -> butunlar o'chirib yuboradi */
+/* opacity: 0 -> bu xiralashtirib beradi. */
+
+
+/* width -> aniq qiymat */
+/* max-width -> biror qiymatdan kattalashmasin, lekin kichik bolishi mumkin */
+/* min-width -> biror qiymatdan kichiklashmasin, lekin kattalashishi mumkin */
+
+
+/* white-space: nowrap (wrap)-> so'zlarni bir qatorda qilib beradi. */
+
+
+/* text-transform */
+/* lowercase -> kichkina */
+/* uppercase -> katta */
+/* capitalize -> bosh harflarini katta */
+/* text-transform: capitalize */
+
+
+/* letter-spacing -> harflar orasidagi masofa */
+/* word-spacing -> so'zlar orasida masofa ochib beradi */
+
+
+/* text-shadow -> 4 ta qiymat qabul qiladi  */
+/* Musbat + : box-shadow: ong past */
+/* Manfiy - : box-shadow: chap tep */
+
+
+/* box-shadow -> 4 ta qiymat qabul qiladi */
+/* Musbat + : box-shadow: ong past */
+/* Manfiy - : box-shadow: chap tep */
+
+
+/* padding */
+/* 1 ta qiymatda -> hamma tomoniga tasir qiladi */
+/* 2 ta qiyamtda -> tepa past va chap ong */
+/* 4 ta qiymatda -> top right bottom left */
+/* tomonlariga ajratib */
