@@ -3,17 +3,28 @@
     margin: 0;
 }
 
-img{
-    width: 300px;
-    height: 300px;
-    float: left;
+
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 30px 10px 20px 10px;
+    margin: 50px;
+
 }
 
-p{
-    font-size: 30px;
-    opacity: 0.3;
+table {
+    border-collapse: collapse;
+    width: 100%;
+
 }
 
+td{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 40%;
+}
 
 
 

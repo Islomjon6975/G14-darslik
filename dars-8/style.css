@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    /* flex-direction: row-reverse; */
+    padding: 0px 100px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+/* Flex-Box */
+/* Flex container */
+/* display: flex -> boxlarni yanma yon olib kelish uchun */
+
+/* align-items: flex-start; -> default qiymati */
+/* align-items: center; -> vertikal yonalishda o'rtaga olib keladi */
+/* align-items: flex-end; -> vertikal yonalishda pastiga tushirib beradi */
+
+/* justify-content: flex-start; -> gorizontal yonalish boyicha default */
+/* justify-content: center; -> gorizontal boyicha o'rta */
+/* justify-content: flex-end; -> gorizontal boyicha oxiriga olib boradi */
+/* justify-content: space-between; -> gorizontal boyicha ichidagi itemlarni
+ checkasidan joy qoldirmasdan turli tomonga sochib beradi */
+/* justify-content: space-evenly; -> hamma tomondan teng joy tashar edi */
+/* justify-content: space-around; -> ikki yon tomondan joy olib, o'rtasi uchun shu joyni ikki barobari beriladi. */
+
+/* flex-wrap: wrap; -> itemlar siqmay qolgan holatda keyingi qatorga olib tushirib beradi */
+
+/* gap -> flex container o'z ichiga olgan elementlarining orasida bir xil masofa ochib beradi */
+
+/* box-sizing: border-box; -> biror bir boxga padding berganimizda o'sha box width si ichidan padding uchun joy beradi */
+
+/* flex-direction: column -> itemlarni usma ust tushirib beradi.  */
+/* flex-direction: column-reverse -> itemlarni usma ust teskari tartibda tushirib beradi.  */
+/* flex-direction: row-reverse -> itemlarni  teskari tartibda tushirib beradi.  */
+/* flex-direction: row -> default.  */
+
+
+/* Flex Items */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* linear-gradient -> rasmni qoraytirish yoki ustiga rang berish */
