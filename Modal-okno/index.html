@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Modal okno</title>
+</head>
+<body>
+    <div class="container">
+        <!-- box1 -->
+        <div class="box1">
+            <h1 class="box1-title">Welcome back!</h1>
+            <p class="box1-description">To keep connected with us please login with your personal info </p>
+            <button class="box1-btn">sign in</button>
+        </div>
+
+        <!-- box2 -->
+        <div class="box2">
+            <h1 class="box2-title">create account</h1>
+            <div class="icons">
+                <p class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </p>
+                <p class="icon">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </p>
+                <p class="icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </p>
+            </div>
+            <div class="box2-description">or use your email for registration</div>
+            <!-- form input -->
+            <form action="../dars-8/index.html">
+                <input class="inputs" type="text" placeholder="Name" minlength="3">
+                <input class="inputs" type="email" placeholder="Email" required>
+                <input class="inputs" type="password" placeholder="Password" minlength="5" maxlength="10">
+                <input class="submit" type="submit" value="SING UP">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

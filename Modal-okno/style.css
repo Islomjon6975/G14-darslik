@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 9px 7px 59px -6px rgba(34, 60, 80, 0.32);
+}
+
+/* box1 style */
+
+.box1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    background-color: #1B2638;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+.box1-title{
+    color: white;
+    text-transform: capitalize;
+}
+
+.box1-description {
+    color: #fff;
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.box1-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* box2 style */
+
+.box2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1.5;
+    background-color: #FEFEFE;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box2-title {
+    color: #1B2638;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey; 
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 13px;
+}
+
+.inputs{
+    width: 280px;
+    height: 40px;
+    background-color: #F4F4F4;
+    border: none;
+    outline: none;
+    padding-left: 18px;
+    border-radius: 3px;
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #1B2638;
+    color: white;
+    text-transform: uppercase;
+}

@@ -24,6 +24,10 @@
     background-color: green;
 }
 
+th{
+    width: 70px;
+}
+
 /* Flex-Box */
 /* Flex container */
 /* display: flex -> boxlarni yanma yon olib kelish uchun */
