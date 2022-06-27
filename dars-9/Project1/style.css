@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px 184px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    gap: 49px;
+}
+
+.nav-item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-transform: capitalize;
+}
+
+.button{
+    background: #FF7143;
+    border-radius: 10px;
+    padding: 18px 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+/* section-1 */
+
+.section-1{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.section-1 .item1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1 .item2{
+    flex: 1;
+}
+
+.section-1 .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+
+.section-1 .description{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.buttons .btn{
+    background: #5454D4;
+    border-radius: 10px;
+    padding: 18px 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+
+.buttons .arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.item .pose{
+    width: 100%;
+}
