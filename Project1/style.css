@@ -6,6 +6,7 @@
 
 .container {
     padding: 30px 184px;
+    min-width: 1368px;
 }
 
 /* navbar */
@@ -118,3 +119,121 @@
 .item .pose{
     width: 100%;
 }
+
+
+/* sectioni-5 */
+
+.section-5{
+    display: flex;
+    gap: 75px;
+    justify-content: space-between;
+    margin: 138px 0px 200px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img{
+    width: 80px;
+    height: 70px;
+}
+
+.card .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+    margin: 20px 0px;
+}
+
+.card .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #696871;
+    max-width: 307px;
+}
+
+
+/* section-7 */
+
+.section-7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-7 .card{
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 430px;
+    padding: 43px 0px;
+}
+
+.section-7 .card:hover{
+    background-color: #FF7143;
+    height: 523px;
+}
+
+.section-7 .description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+    margin: 10px 0px;
+}
+
+.section-7 .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+    margin: 15px 0px;
+}
+
+.section-7 .btn{
+    width: 285px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 19px 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+
+    color: #5454D4;
+}
+
+
+.section-7 .card:hover .title{
+   color: white;
+}
+
+.section-7 .card:hover .description{
+   color: white;
+}
+
+.section-7 .card:hover .btn{
+    background-color: #9F3919;
+    color: white;
+    border: none;
+ }
