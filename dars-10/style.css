@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 1000px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'i1 i2 i3'
+    'i4 i2 i5'
+    'i4 i6 i5'
+    ;
+
+}
+
+.item{
+    background-color: blueviolet;
+}
+
+.item1{
+    grid-area: i1;
+}
+
+.item2{
+    grid-area: i2;
+}
+
+.item3{
+    grid-area: i3;
+}
+
+.item4{
+    grid-area: i4;
+}
+
+.item5{
+    grid-area: i5;
+}
+
+.item6{
+    grid-area: i6;
+}
+
+.item7{
+    grid-area: i7;
+}
+
+
+/* Flex-box -> one dimensional *
+
+/* Grid-box -> two dimensional */
+/* GridContainer */
+/* dispay: grid; -> bu gridbox yaratish uchun */
+/* grid-template-columns: -> grid ustunlar yaratish uchun */
+/* grid-template-rows: -> qator yaratish uchun */
+/* grid-gap: -> childlar orasida joy ochib berish uchun */
+/* grid-column-gap: -> ustun boyicha */
+/* grid-row-gap: -> qator boyicha */
+/* justify-items -> x oqi boyicha joylashuv */
+/* align-items -> y oqi boyicha joylashuv */
+/* grid-template-areas: -> gridboximzini qismlarga ajratib olish  */
+
+/* GridItems */
+/* grid-area -> bu childlarni yaratib olgan areamizga qarab joylashtirish,
+bunga nom beramiz */
+
+/* Qoshimcha action */
+/* repeat() -> takrorlab berish */
+/* fr olchov birligi -> taqsimlash uchun, qolib ketgan joyni egallab oladi,
+flex-grow bilan bir xil */
