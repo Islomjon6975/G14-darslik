@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-box{
+    position: relative;
+}
+
+input{
+    width: 200px;
+    outline: none;
+    padding-left: 30px;
+}
+
+input::placeholder{
+    color: red;
+}
+
+.fa-envelope{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(-50%, -50%);
+}
+
+/* Position */
+/* static -> boshlang'ich holati */
+/* relative -> boxga chegara qoyib olish uchun. */
+/* absolute -> windowni ustki qismiga chiqarib olish uchun */
+/* sticky -> joyida qotirib berish uchun, va joyini ham saqlab qoladi */
+/* fixed -> joyida qotirib beradi, window ni ustiga chiqazib qoyadi */
+
+/* qoshimcha qiymatlari */
+/* top, left, right, bottom */
+/* tranform: translate(-50%, -50%); -> kordinatasini o'rtaga olib kelish uchun */
+/* z-index -> window boyicha ustma ust qoyish yoki chiqarish */
+
+
+/* CSS selectors */
+/* , -> va degan ma'noni bildiradi */
+/* div > p ->  divni ichidagi childi p bolganlar uchun */
+/* div + p -> div va p qoshilgan elementlardan keyin kelgan 1 chi p 
+tagiga design berish */
+/* div ~ p -> div+p dan keyin kelgan plarni barchasiga design beradi. */
+/* div p{} -> divning ichidagi hamma p lar uchun */
