@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin: 40px;
+    transition: all 3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container:hover {
+    transform: translateY(100px);
+}
+
+
+/* Transform */
+/* scale() -> width va height ni oshirib kamaytirib beradi */
+/* rotate() -> aylantirib beradi */
+/* skew() -> 3d design qilib beradi, X va Y oqi boyicha beriladi (X, Y) */
+/* translate() -> kordinata boyicha surib beradi */
+
+/* Psudeo elementlar */
+/* :hover -> sichqonchani ustiga olib borganda */
+/* :active -> sichqoncha bosilganda */
+/* :focus -> inputlar bilan ishlaydi,  ustiga bir marta bosilganda ishlaydi */
+/* ::first-letter -> birinchi harfga stil berish */
+/* ::first-line -> birinchi qatorga stil berish */
+/* ::selection -> belgilashda rangini o'zgartirib beradi. Highlight qilish */
+/* befor, after, content */
+/* nth-child() -> bizda bir xil turdagi teglar bo'lsa, va ushalar orasidan aynan birini tanlashda */
+/* invalid -> input shartlari qanoatlantirilmasa */
+
+/* filer: opacity() -> rasmlar uchun rang va turli hususiyatlar beradi  */
+/* transparent -> parentdan meros oladi. parentni rangi bilan bir xil bo'ladi */

@@ -4,14 +4,28 @@
     box-sizing: border-box;
 }
 
-div{
-    width: 0;
-    height: 0;
-    border-top: 50px solid white;
-    border-bottom: 50px solid red;
-    border-left: 50px solid white;  
-    border-right: 50px solid white;
+.uchburchak{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+div ~ p {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
 
 /* Position */
 /* static -> boshlang'ich holati */
