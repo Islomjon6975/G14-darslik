@@ -16,6 +16,40 @@
 }
 
 
+a{
+    color: #3d3d3d;
+    text-decoration: none;
+    transition: all 0.3s;
+    position: relative;
+    margin: 100px;
+    overflow: hidden;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #46a359;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    width: 120%;
+    height: 2px;
+    background: #46a358;
+    transform: scaleX(0);
+    transition: transform 1s ease-in-out;
+    transform-origin: right;
+  }
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    
+}
+
+
 
 
 /* Transform */
