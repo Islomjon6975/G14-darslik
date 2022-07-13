@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-delay: 3s;
+    
+
+    /* animation: box 5s ease-in-out 3s infinite alternate-reverse; */
+}
+
+
+.box:hover{
+    animation-play-state: paused;
+}
+
+/* @keyframes box {
+    from{
+        background-color: red;
+
+    }
+    to{
+        background-color: black;
+    }
+} */
+
+
+@keyframes box {
+    0% {
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        background-color: blue;
+        top: 0;
+        left: 400px;
+    }
+    50% {
+        background-color: yellow;
+        top: 400px;
+        left: 400px;
+    }
+    75% {
+        background-color: crimson;
+        top: 400px;
+        left: 0;
+    }
+    100% {
+        background-color: black;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+
+
+
+/* Animation */
+/* animation -> 2 turi -> from, to; timing (100%) */
+/* from, to -> faqat boshlanish va oxirgi styllar beriladi */
+/* @keyframes -> animatsiyamizdagi styllarni yozish uchun va unga nom beriladi */
+/* animation-name -> @keyframes ga berilgan nom yoziladi */
+/* animation-duration -> qancha muddat davom etishi */
+/* animation-iteration-count -> necha marotaba sodir bo'lishi */
+/* infinite -> checksiz davom etish uchun */
+/* animation-direction: normal (reverse, alternate, alternate-reverse) */
+/* animation-delay -> kechiktirish */
+/* animation-timing-function: ease(ease-in, ease-out, ease-in-out, cub-bezier() 
+-> qanaqa holatda chiqib tugashini belgilash ->transition niki bilan bir xil */
