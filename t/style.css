@@ -1,53 +1,94 @@
 
 
 
-
-
-
-
-
-
-
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
-a{
-    color: #3d3d3d;
-    text-decoration: none;
-    transition: all 0.3s;
+.container {
     position: relative;
-    margin: 100px;
-    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-a:hover {
-    font-weight: bold;
-    color: #46a359;
-}
-
-a::after {
-    content: '';
+.small-circle {
     position: absolute;
-    bottom: 0;
-    left: -5px;
-    width: 120%;
-    height: 2px;
-    background: #46a358;
-    transform: scaleX(0);
-    transition: transform 1s ease-in-out;
-    transform-origin: right;
-  }
-
-a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
-    
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 10px solid rgb(6, 245, 245);
 }
+
+.big-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid rgb(6, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-circle:hover .minut {
+    animation-play-state: paused;
+}
+
+.big-circle .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgb(6, 245, 245);
+    z-index: 10;
+}
+
+.big-circle .minut {
+    width: 200px;
+    height: 10px;
+    /* background: red; */
+    background: linear-gradient(to right, white 50%, rgb(6, 245, 245) 50%);
+    border-radius: 40px;
+    transition: 2s;
+    animation-name: minut;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes minut {
+    from{
+        transform: rotate(0deg);
+    } 
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container h1 {
+    font-size: 22px;
+    color:rgb(6, 245, 245);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
