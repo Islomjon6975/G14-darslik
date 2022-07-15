@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* padding: 0px 50px; */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5855E7;
+    height: 143px;
+    padding: 0px 50px;
+}
+
+.navbar img {
+    
+}
+
+.navbar .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+.navbar .nav-items p {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.navbar .icons {
+    display: none;
+}
+
+
+
+
+.navbar .button {
+    width: 267.14px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+/* section 1 */
+
+.section-1{
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #5855E7;
+}
+
+.right {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+/* Media query -> responsive qilish */
+/* Responsive -> desktop, laptop, planshet, mobile */
+
+/* desktop -> 1920px baland */
+/* laptop -> 1240px ~ 1920px */
+/* planshet -> 900px ~ 600px, 700px */
+/* mobile -> 320px ~ 600px */
+
